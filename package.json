@@ -11,8 +11,8 @@
     "dev:front": "parcel ./client/index.html",
     "dev:api": "nodemon --watch ./server/index.ts --exec ts-node ./server/index.ts",
     "build:api": "tsc ./server/index.ts",
-    "build": "build:api && build:front",
-    "start": "node index.js"
+    "build": "yarn build:api && yarn build:front",
+    "start": "node ./server/index.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
