@@ -9,6 +9,6 @@ app.use(express.static("dist"));
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
-app.get("/", (req, res) => {
+app.get("/test", (req, res) => {
   res.json("hola");
 });
