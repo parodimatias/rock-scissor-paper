@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "parcel": "^2.0.1"
+  },
+  "name": "rock-scissor-paper",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build:front": "parcel build ./client/index.html",
+    "dev:front": "parcel ./client/index.html",
+    "dev:api": "nodemon --watch ./server/index.ts --exec ts-node ./server/index.ts",
+    "build:api": "tsc ./server/index.ts",
+    "build": "build:api && build:front",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
