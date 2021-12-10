@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap");
+.welcome-page {
+  margin: auto;
+  overflow: hidden;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  background-image: url(/client/imgs/background.png);
+}
+.title {
+  display: block;
+  max-width: 300px;
+  font-family: "MyAmerican";
+  font-weight: bold;
+  color: #009048;
+  font-size: 80px;
+  margin: 0;
+}
+.buttons-container,
+.buttons-container--index {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  font-family: "Odibee Sans";
+  font-weight: 400;
+  font-size: 45px;
+}
+.buttons-container--index {
+  height: 190px;
+}
+.room-code {
+  font-family: "Odibee Sans", cursive;
+  font-size: 45px;
+  color: black;
+  border: 10px solid #001997;
+  box-sizing: border-box;
+  border-radius: 10px;
+  height: 84px;
+  width: 365px;
+}
+.images-container {
+  margin-top: 80px;
+  height: 100px;
+  position: relative;
+}
+.hand {
+  position: relative;
+  margin: 0 23px;
+}
