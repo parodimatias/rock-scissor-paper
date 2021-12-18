@@ -1,4 +1,5 @@
 import { Router } from "@vaadin/router";
+import { state } from "../state";
 customElements.define(
   "home-page",
   class extends HTMLElement {
@@ -12,6 +13,8 @@ customElements.define(
       const newGameButton = document.querySelector(".new-game-button");
       newGameButton.addEventListener("click", (e) => {
         e.preventDefault();
+        const cs = state.getState();
+        cs.roomId = false;
         Router.go("/insert-name");
       });
       const joinRoomButton = document.querySelector(".join-room-button");
@@ -22,7 +25,6 @@ customElements.define(
     }
 
     render() {
-      console.log("renderizando");
       this.className = "welcome-page";
       this.innerHTML = `  
         <div class="container">

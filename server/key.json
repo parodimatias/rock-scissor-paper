@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "mp-rock-scissor-paper",
+  "private_key_id": "f959b22c06e930ce61bbde00fdd1a1f182b18487",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDB1+dkpyBVFNY2\nRSGau17kHWWHRwMdnC/1EG1BU1oVpzg+t2psR5bzo42nv6ofFvkoLMSKxBdlG2BS\nsTzVP/4dSAxqzQNaZsgZwEgMYZEJCxLdKwioYi21beY+ImUzMEdckzrj3bULjiyy\nsNupD6yBhifEFxaIVbPy46IMzn270otwEvWgNu3sy1OT1Y7bQKnuViRjQwTnYV/M\nT+m36RqmI3wSobHVs4zQm6LuC66NzGt7jXbXFhj+cRyBvqVsXwLchl77OqLZbiN0\n6bCsxEqsQL9YE+RNrLhLLJspM2nnGGG+6Fs1wdv70iHbV4Rha+iAOgu+5DKVdTMN\nIQWJO6FdAgMBAAECggEAEx1VsXyzeQBVgUN+5VGtsUPe06Cig4R3zCwjAeqUuwbi\nynhus5+5mGvb15tUTL2Iszf6544fmnZBINZeX87wIXYN12hA+OSivbtSv3nNgf1I\nDmwkbepEhJwCNMVSgmIz30Kbb4XYyPtrl/FNr9WeVqVifXkjXS1KUdy1iZrBFkio\nFjGrDRVRAgevKB0UIMqGsAVN5NX3dZ5E0wwsrOGr4jiog+esY7UNA5eSt0HxvApS\n4mNs5/68H4iniJmv5wxjZbBubTGFogTpMNl5UD2j1H3ILgBafIRK1DUTpzpKeuOV\nt6gUqiyniLOzg3BH44ygFjDujngCeV4lc++Y+w8SZwKBgQD18d7MbDKyQQuKuPr/\ny5kFFWgLCPqIYne5+cWwim6pTe6LkybVeBIX3nToSRJAUs09w3/oToSLNJtTT3rp\nIBXM0nHG8fDZUiQ43koih7U6mYnvPDq8PZeVJSciugrfNYWSrneUiZFlMPfz2CW/\nrW0XEFp1RBUsmb63tpCc/2DyYwKBgQDJxLmRfqIWgAI1XQNj8oh4H02cFx/kGq5U\nTkqdmEL5TRf5DUmcKFVkC5RYpfBCrSjax8lzOS2f//SaL2xrCsYsRYvshrScaE88\nazh0oBlhE6kPdXOwGXrKb1RJTWPu95thgSXf6nfl6bito/j4TlPhyOInIY7A1+XT\nnOAdAoOJPwKBgF+obXGw+57dMbII9IcdFy0lAEyad2codUy+WyepEBWFnCxpVYdd\nphvmiC34jcK68dz99vfR4jeKhIdIuJOHyTLa/ynT3EuKaVA9FTSM9+4M3dtQ379r\nbVOzGZ+mIKhkVsmQVi5Nu2FSRH5xKW199Jot4CEQE/Q+8DDgLysBISHlAoGBAI75\ngCXBfkpDW01FI+nnKx0z0WMSX97bqTzEXcte4daW8q3g5JBrZFcIfY5zx9T3r0OY\n3v9vPQ1r6oB3qnQPpm4ougZZThKnN76wm8jIyjMoI1x49gmLhJ9+VFO9K1tiyhBF\n2/jXxS5+eAdTclFB797G4rqn5OhyFMHnIEhuR5cxAoGAJt8wnshEyFEIipeH3WNG\nGc+H8Y6QKPZMV/g0BJ9EI9/87I5yPaSg9jNiUCsf5w5xI8Z7j1pMXD6k3JVVmSmP\n6ZLnAUBy6gkzkq7ZIJMED83jgsKs9Hz3VQhg1dO7VWeaX2FtdYQ4vAukjqxfDhEk\nzAfjE8njo5Do5bwNFcHXq3A=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-chnmj@mp-rock-scissor-paper.iam.gserviceaccount.com",
+  "client_id": "104687586480570805330",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-chnmj%40mp-rock-scissor-paper.iam.gserviceaccount.com"
+}

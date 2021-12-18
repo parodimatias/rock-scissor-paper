@@ -1,4 +1,5 @@
 import { Router } from "@vaadin/router";
+import { state } from "../state";
 customElements.define(
   "join-room",
   class extends HTMLElement {
@@ -21,6 +22,14 @@ customElements.define(
   <custom-move class="hand" move="paper"></custom-move>
   </div>
   </div>`;
+      const joinGameButton = document.querySelector(".join-game-button");
+      const roomCode = <HTMLInputElement>document.querySelector(".room-code");
+      joinGameButton.addEventListener("click", (e) => {
+        e.preventDefault();
+        const cs = state.getState();
+        cs.roomId = roomCode.value;
+        Router.go("/insert-name");
+      });
     }
   }
 );

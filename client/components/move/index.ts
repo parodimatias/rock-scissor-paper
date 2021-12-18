@@ -28,6 +28,9 @@ export function moveComponent() {
           case "paper":
             imageURL = paperImageURL;
             break;
+          case "empty":
+            imageURL = "";
+            break;
           default:
             console.error("Wrong move attribute");
         }
@@ -57,7 +60,10 @@ export function moveComponent() {
           cursor: pointer;
         }`;
         }
-        div.innerHTML = `
+        div.innerHTML =
+          move == "empty"
+            ? ``
+            : `
         <img class="image" src=${imageURL} alt="${move}">
     `;
         shadow.appendChild(div);

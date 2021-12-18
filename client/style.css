@@ -3,22 +3,89 @@
   margin: auto;
   overflow: hidden;
 }
+@font-face {
+  font-family: "MyAmerican";
+  src: url("./fonts/ufonts.com_american-typewriter-bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "MyAmerican";
+  src: url("./fonts/American Typewriter Regular.ttf");
+  font-weight: 600;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
 .container {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   overflow: hidden;
   background-image: url(/client/imgs/background.png);
+  height: 700px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 630px;
+}
+.play-block {
+  margin-top: 100px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+}
+.msj-box {
+  text-align: center;
 }
 .title {
   display: block;
   max-width: 300px;
   font-family: "MyAmerican";
-  font-weight: bold;
+  font-weight: 700;
   color: #009048;
   font-size: 80px;
   margin: 0;
+}
+.text-bold,
+.header-text,
+.header-text--light,
+.header-text--orange {
+  display: block;
+  max-width: 300px;
+  font-family: "MyAmerican";
+  font-weight: 700;
+  font-size: 48px;
+  margin: 0;
+}
+.text {
+  display: block;
+  max-width: 350px;
+  font-family: "MyAmerican";
+  font-weight: 600;
+  font-size: 35px;
+  text-align: center;
+  margin: 0;
+}
+.header-text {
+  font-size: 24px;
+}
+.header-text--orange {
+  font-size: 24px;
+  color: #ff6442;
+}
+.header-text--light {
+  font-size: 24px;
+  font-weight: 400;
 }
 .buttons-container,
 .buttons-container--index {
@@ -34,7 +101,8 @@
 .buttons-container--index {
   height: 190px;
 }
-.room-code {
+.room-code,
+.input-name {
   font-family: "Odibee Sans", cursive;
   font-size: 45px;
   color: black;
