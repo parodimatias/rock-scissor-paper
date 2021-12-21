@@ -1,4 +1,4 @@
-const API_BASE_URL = "https://mp-rock-scissor-paper.herokuapp.com/";
+const API_BASE_URL = "";
 import { rtdb } from "./rtdb";
 import * as _map from "lodash/map";
 import { onValue, ref, get } from "firebase/database";
